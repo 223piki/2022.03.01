@@ -2,8 +2,8 @@ h2{
   letter-spacing: 1px;
   margin-top: 20px;
   margin-bottom: 20px;
+  text-transform: uppercase; 
 }
-
 h2:first-letter {
   font-size: 120%;
   margin-top: 50px;
@@ -16,7 +16,6 @@ p{
 
 #def{
   font-style: italic;
-  text-align: center;
   justify-content: center;
 }
 
@@ -51,10 +50,13 @@ p{
   z-index: 99; 
   border: none;
   outline: none;
-  background-color: #555;
+  background-color: red;
   color: white;
   cursor: pointer;
   padding: 10px;
   border-radius: 10px; 
   }
 
+#felGomb :hover{
+  background-color: #555;
+}
