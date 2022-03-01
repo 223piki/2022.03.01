@@ -7,8 +7,9 @@
   <script src="js/jquery.min.js"></script>
   <script src="js/popper.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
-  <link rel="stylesheet" href="troli.css">
   <link rel="stylesheet" href="troli.js">
+  <link rel="stylesheet" href="troli.css">
+  
   <style>
   /* Make the image fully responsive */
   .carousel-inner img {
@@ -142,14 +143,14 @@
       
         <p>Járatszám:
         <br>
-        <select id="vegallomasKiiras" onclick="vegallomasKiiras(this.value)">
+        <select id="jaratSzam" onclick="jaratKiiras(this.value)">
         <script>
           vegallomasNevek.forEach(jaratKiiras);
         </script>
         </select>
         </p>
         <p>A járat végállomásai:<br>
-        <b id="vegallomasok">
+        <b id="vegallomasNevek">
           <script>vegallomasKiiras("70");</script>
         </b>
         </p>
